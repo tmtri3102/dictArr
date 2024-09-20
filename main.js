@@ -1,4 +1,3 @@
-// Tạo mảng chứa 20 từ tiếng Anh
 let array1 = [
 	"apple",
 	"banana",
@@ -22,7 +21,6 @@ let array1 = [
 	"watermelon",
 ];
 
-// Tạo mảng chứa 20 từ tiếng Việt tương ứng
 let array2 = [
 	"táo",
 	"chuối",

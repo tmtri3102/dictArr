@@ -8,14 +8,24 @@
 		/>
 		<title>Document</title>
 	</head>
-	<body>
+	<body style="max-width: 250px">
 		<input
 			type="text"
 			id="inputWord"
 			placeholder="Type a fruit name"
 		/>
 		<button onclick="translateWord()">Translate</button>
+
 		<p id="result"></p>
+		<br />
+		<hr />
+		<br />
+		<p
+			style="cursor: pointer"
+			onmouseover="hint()"
+		>
+			Hint
+		</p>
 		<script src="main.js"></script>
 	</body>
 </html>
